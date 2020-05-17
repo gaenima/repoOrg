@@ -16,14 +16,14 @@ export const createTask = (taskID, groupID, ownerID) => ({
   ownerID,
 });
 
-export const setTaskCompletion = (id, isComlete) => ({
+export const setTaskCompletion = (id, isComplete) => ({
   type: SET_TASK_COMPLETE,
   taskID: id,
-  isComlete,
+  isComplete,
 });
 
 export const setTaskName = (id, name) => ({
-  type: SET_TASK_Name,
+  type: SET_TASK_NAME,
   taskID: id,
   name,
 });
